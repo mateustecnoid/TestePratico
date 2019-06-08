@@ -1,0 +1,14 @@
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.Aplicacao.deps.json
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.Aplicacao.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.Aplicacao.pdb
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.AssemblyInfo.cs
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.pdb
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.csprojAssemblyReference.cache
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.DataTransfer.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.Dominio.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.DataTransfer.pdb
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.Dominio.pdb
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.csproj.CopyComplete

@@ -1,0 +1,17 @@
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\bin\Debug\netcoreapp2.1\TestePratico.DominioTeste.deps.json
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\bin\Debug\netcoreapp2.1\TestePratico.DominioTeste.runtimeconfig.json
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\bin\Debug\netcoreapp2.1\TestePratico.DominioTeste.runtimeconfig.dev.json
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\bin\Debug\netcoreapp2.1\TestePratico.DominioTeste.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\bin\Debug\netcoreapp2.1\TestePratico.DominioTeste.pdb
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\obj\Debug\netcoreapp2.1\TestePratico.DominioTeste.csprojAssemblyReference.cache
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\obj\Debug\netcoreapp2.1\TestePratico.DominioTeste.csproj.CoreCompileInputs.cache
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\obj\Debug\netcoreapp2.1\TestePratico.DominioTeste.AssemblyInfoInputs.cache
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\obj\Debug\netcoreapp2.1\TestePratico.DominioTeste.AssemblyInfo.cs
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\obj\Debug\netcoreapp2.1\TestePratico.DominioTeste.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\obj\Debug\netcoreapp2.1\TestePratico.DominioTeste.pdb
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\bin\Debug\netcoreapp2.1\TestePratico.Dominio.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\bin\Debug\netcoreapp2.1\TestePratico.Dominio.pdb
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DominioTeste\obj\Debug\netcoreapp2.1\TestePratico.DominioTeste.csproj.CopyComplete

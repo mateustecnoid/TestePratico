@@ -1,0 +1,9 @@
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Dominio\bin\Debug\netcoreapp2.1\TestePratico.Dominio.deps.json
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Dominio\bin\Debug\netcoreapp2.1\TestePratico.Dominio.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Dominio\bin\Debug\netcoreapp2.1\TestePratico.Dominio.pdb
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.AssemblyInfoInputs.cache
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.AssemblyInfo.cs
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.pdb
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.csprojAssemblyReference.cache

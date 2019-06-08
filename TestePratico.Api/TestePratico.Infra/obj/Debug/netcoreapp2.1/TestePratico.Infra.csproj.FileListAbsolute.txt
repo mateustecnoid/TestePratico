@@ -1,0 +1,14 @@
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.csprojAssemblyReference.cache
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.csproj.CoreCompileInputs.cache
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.AssemblyInfoInputs.cache
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.AssemblyInfo.cs
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\TestePratico.Infra.deps.json
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\TestePratico.Infra.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\TestePratico.Infra.pdb
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Protocols.xml
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.csproj.CopyComplete
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.pdb
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\TestePratico.Dominio.dll
+C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\TestePratico.Dominio.pdb
