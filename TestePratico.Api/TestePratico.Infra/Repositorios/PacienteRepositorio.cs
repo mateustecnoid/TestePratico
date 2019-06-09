@@ -94,8 +94,9 @@ namespace TestePratico.Infra.Repositorios
 
             if(dataNascimento != null && dataNascimento != new DateTime())
             {
-                query.AppendLine("AND DATNASCIMENTO = @DATANASCIMENTO");
-                parametros.Add("DATANASCIMENTO", dataNascimento);
+                var data = dataNascimento.Value.ToUniversalTime();
+                query.AppendLine("AND DATNASCIMENTO =  convert(datetime, @DATANASCIMENTO, 101)");
+                parametros.Add("DATANASCIMENTO", data.ToShortDateString());
             }
 
             #endregion

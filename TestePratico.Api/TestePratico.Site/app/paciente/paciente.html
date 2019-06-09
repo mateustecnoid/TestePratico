@@ -21,8 +21,7 @@
                             <div class="col-lg-3 col-md-3">
                                 <div class="form-group">
                                     <label>Data de Nascimento: </label>
-                                    <input class="form-control" uib-datepicker-popup type="text"
-                                        ng-model="vm.filtro.dataNascimento">
+                                    <input class="form-control" type="date" ng-model="vm.filtro.dataNascimento">
                                 </div>
                             </div>
                         </div>
@@ -60,14 +59,17 @@
                                             <!-- <i class="fa fa-refresh" aria-hidden="true"></i>
                                             <i class="fa fa-times" aria-hidden="true"></i> -->
                                             <div class="btn-group" uib-dropdown dropdown-append-to-body>
-                                                <button id="btn-append-to-body" type="button" class="btn btn-xs btn-primary"
-                                                    uib-dropdown-toggle>
-                                                    <i class="fa fa-cog" aria-hidden="true"></i>                                                    
+                                                <button id="btn-append-to-body" type="button"
+                                                    class="btn btn-xs btn-primary" uib-dropdown-toggle>
+                                                    <i class="fa fa-cog" aria-hidden="true"></i>
                                                 </button>
                                                 <ul class="dropdown-menu" uib-dropdown-menu role="menu"
                                                     aria-labelledby="btn-append-to-body">
-                                                    <li role="menuitem"><a ui-sref="app.atualizar-paciente({codigo: registro.codigo})">Atualizar</a></li>
-                                                    <li role="menuitem"><a ng-click="vm.excluir(registro.codigo)">Excluir</a></li>
+                                                    <li role="menuitem"><a
+                                                            ui-sref="app.atualizar-paciente({codigo: registro.codigo})">Atualizar</a>
+                                                    </li>
+                                                    <li role="menuitem"><a
+                                                            ng-click="vm.excluir(registro.codigo)">Excluir</a></li>
                                                 </ul>
                                             </div>
                                         </td>
