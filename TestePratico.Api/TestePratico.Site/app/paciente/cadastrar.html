@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <form name="cadastroPaciente" ng-submit="vm.inserir()">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Novo paciente</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="form-group">
+                                    <label>Nome: </label>
+                                    <input class="form-control" required type="text" ng-model="vm.filtro.nome">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <div class="form-group">
+                                    <label>Data de Nascimento: </label>
+                                    <input class="form-control" required type="text" ng-model="vm.filtro.dataNascimento"
+                                        atg-datepicker>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <button class="btn btn-sm btn-primary" type="submit">Salvar</button>
+                                <button class="btn btn-sm" ng-click="vm.paciente = {};">Limpar Campos</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -15,3 +15,4 @@ D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.DataTransfer\obj\Debu
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.DataTransfer\obj\Debug\netcoreapp2.1\TestePratico.DataTransfer.AssemblyInfo.cs
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.DataTransfer\obj\Debug\netcoreapp2.1\TestePratico.DataTransfer.dll
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.DataTransfer\obj\Debug\netcoreapp2.1\TestePratico.DataTransfer.pdb
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.DataTransfer\obj\Debug\netcoreapp2.1\TestePratico.DataTransfer.csprojAssemblyReference.cache

@@ -37,7 +37,7 @@ namespace TestePratico.Api.Controllers
         }
 
         [HttpGet("paciente")]
-        public IActionResult RecuperarFiltrado([FromRoute] FiltroPacienteRequest request)
+        public IActionResult RecuperarFiltrado([FromQuery] FiltroPacienteRequest request)
         {
             var response = pacienteServico.Recuperar(request);
 

@@ -6,17 +6,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Teste Pratico - ITIX</title>
 
+	<!-- Jquery -->
+
 	<!-- Angular -->
 	<script src="libs/angular/angular.min.js"></script>
 	<script src="libs/angular-ui-router/angular-ui-router.min.js"></script>
-	<script src="libs/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
-	<script src="libs/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
-
+	<script src="libs/angular-locale-pt-br/angular-locale_pt-br.js"></script>
+	
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="libs/angular-ui-bootstrap/dist/bootstrap.min.css">
+	<script src="libs/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+	<script src="libs/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+	<script src="libs/angular-ui-bootstrap/src/datepicker/datepicker.js"></script>
+	<link rel="stylesheet" href="libs/angular-ui-bootstrap/src/datepicker/datepicker.css" />
 
 	<!-- CSS Customizado -->
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+	<!-- Ng Table -->
+	<script src="libs/ng-table/ng-table.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="libs/ng-table/ng-table.min.css">
+
 
 	<script src="app/app.js"></script>
 	<script src="app/appController.js"></script>
@@ -26,13 +36,16 @@
 	<!-- Controllers -->
 	<script src="app/inicio/inicioController.js"></script>
 	<script src="app/paciente/pacienteController.js"></script>
+	<script src="app/paciente/cadastrarPacienteController.js"></script>
+	<script src="app/paciente/atualizarPacienteController.js"></script>	
 	<script src="app/agendamento/agendamentoController.js"></script>
 
 	<!-- Services -->
 	<script src="services/agendamentoService.js"></script>
 	<script src="services/pacienteService.js"></script>
 
-	<ui-view></ui-view>
+	<div ng-include="'template/menu.html'"></div>
+	<div ui-view></div>
 </body>
 
 </html>

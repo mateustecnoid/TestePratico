@@ -37,7 +37,7 @@ namespace TestePratico.Api.Controllers
         }
 
         [HttpGet("agendamento")]
-        public IActionResult RecuperarFiltrado([FromRoute] FiltroAgendamentoRequest request)
+        public IActionResult RecuperarFiltrado([FromQuery] FiltroAgendamentoRequest request)
         {
             var response = agendamentoServico.Recuperar(request);           
 

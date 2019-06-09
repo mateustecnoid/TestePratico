@@ -1,1 +1,87 @@
-<h3>Teste:Paciente</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <form name="filtroPaciente" ng-submit="vm.pesquisar()">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Filtros</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="form-group">
+                                    <label>Codigo: </label>
+                                    <input class="form-control" type="number" ng-model="vm.filtro.codigo">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <div class="form-group">
+                                    <label>Nome: </label>
+                                    <input class="form-control" type="text" ng-model="vm.filtro.nome">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <div class="form-group">
+                                    <label>Data de Nascimento: </label>
+                                    <input class="form-control" uib-datepicker-popup type="text"
+                                        ng-model="vm.filtro.dataNascimento">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <button class="btn btn-sm btn-primary" type="submit">Pesquisar</button>
+                                <button class="btn btn-sm" ng-click="vm.filtro = {};">Limpar Filtros</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">Resultado</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a class="btn btn-sm btn-primary" ui-sref="app.cadastrar-paciente">Novo</a>
+                        </div>
+                        <br />
+                        <br />
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="table-responsive">
+                                <table ng-table="vm.TabelaPacientes"
+                                    class="table table-condensed table-bordered table-striped">
+                                    <tr ng-repeat="registro in $data">
+                                        <td data-title="'Ações'" class="text-center">
+                                            <!-- <i class="fa fa-refresh" aria-hidden="true"></i>
+                                            <i class="fa fa-times" aria-hidden="true"></i> -->
+                                            <div class="btn-group" uib-dropdown dropdown-append-to-body>
+                                                <button id="btn-append-to-body" type="button" class="btn btn-xs btn-primary"
+                                                    uib-dropdown-toggle>
+                                                    <i class="fa fa-cog" aria-hidden="true"></i>                                                    
+                                                </button>
+                                                <ul class="dropdown-menu" uib-dropdown-menu role="menu"
+                                                    aria-labelledby="btn-append-to-body">
+                                                    <li role="menuitem"><a ui-sref="app.atualizar-paciente({codigo: registro.codigo})">Atualizar</a></li>
+                                                    <li role="menuitem"><a ng-click="vm.excluir(registro.codigo)">Excluir</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td data-title="'Código'" class="text-center">{{registro.codigo}}</td>
+                                        <td data-title="'Nome'" class="text-center">{{registro.nome}}</td>
+                                        <td data-title="'Data de Nascimento'" class="text-center">
+                                            {{registro.dataNascimento | date: 'shortDate'}}</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

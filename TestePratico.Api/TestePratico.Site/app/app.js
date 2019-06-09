@@ -1,28 +1,45 @@
-angular.module('TestePratico', ['ui.bootstrap', 'ui.router'])
+angular.module('TestePratico', ['ui.bootstrap', 'ui.router', 'ngTable'])
     .constant('UrlApi', {
         //URL Local:
         UrlApi: "http://localhost/TestePratico.Api/api/"
-    })
-
-    .config(function ($stateProvider, $urlRouterProvider, $httpProvider, $compileProvider) {
-        $urlRouterProvider.otherwise('/inicio');
+    })    
+    .config(function ($stateProvider, $urlRouterProvider) {
+        $urlRouterProvider.otherwise('/app');
         $stateProvider
-            .state('inicio', {
+            .state('app', {
+                url: '/app',
+                template: '<ui-view></ui-view>',
+                controller: 'AppController',
+                controllerAs: 'vm'
+            })
+            .state('app.inicio', {
                 url: '/inicio',
                 templateUrl: 'app/inicio/inicio.html',
                 controller: 'InicioController',
                 controllerAs: 'vm'
             })
-            .state('paciente', {
+            .state('app.paciente', {
                 url: '/paciente',
                 templateUrl: 'app/paciente/paciente.html',
-                controller: 'pacienteController',
+                controller: 'PacienteController',
                 controllerAs: 'vm'
             })
-            .state('agendamento', {
+            .state('app.cadastrar-paciente', {
+                url: '/cadastrar-paciente',
+                templateUrl: 'app/paciente/cadastrar.html',
+                controller: 'CadastrarPacienteController',
+                controllerAs: 'vm'
+            })
+            .state('app.atualizar-paciente', {
+                url: '/atualizar-paciente/:codigo',
+                templateUrl: 'app/paciente/atualizar.html',
+                controller: 'AtualizarPacienteController',
+                controllerAs: 'vm'
+            })
+            .state('app.agendamento', {
                 url: '/agendamento',
                 templateUrl: 'app/agendamento/agendamento.html',
-                controller: 'agendamentoController',
+                controller: 'AgendamentoController',
                 controllerAs: 'vm'
             });
     })
