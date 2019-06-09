@@ -6160,11 +6160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.DominioTeste\\TestePratico.DominioTeste.csproj",
+      "projectUniqueName": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.DominioTeste\\TestePratico.DominioTeste.csproj",
       "projectName": "TestePratico.DominioTeste",
-      "projectPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.DominioTeste\\TestePratico.DominioTeste.csproj",
+      "projectPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.DominioTeste\\TestePratico.DominioTeste.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.DominioTeste\\obj\\",
+      "outputPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.DominioTeste\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6183,8 +6183,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Dominio\\TestePratico.Dominio.csproj": {
-              "projectPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Dominio\\TestePratico.Dominio.csproj"
+            "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Dominio\\TestePratico.Dominio.csproj": {
+              "projectPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Dominio\\TestePratico.Dominio.csproj"
             }
           }
         }

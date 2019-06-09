@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.DataTransfer\\TestePratico.DataTransfer.csproj",
+      "projectUniqueName": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.DataTransfer\\TestePratico.DataTransfer.csproj",
       "projectName": "TestePratico.DataTransfer",
-      "projectPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.DataTransfer\\TestePratico.DataTransfer.csproj",
+      "projectPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.DataTransfer\\TestePratico.DataTransfer.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.DataTransfer\\obj\\",
+      "outputPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.DataTransfer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

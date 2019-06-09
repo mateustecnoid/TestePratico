@@ -10,8 +10,7 @@
         "dependencies": {
           "Dapper": "1.60.6",
           "System.Configuration.ConfigurationManager": "4.5.0",
-          "TestePratico.Dominio": "1.0.0",
-          "Microsoft.IdentityModel.Protocols": "5.2.0.0"
+          "TestePratico.Dominio": "1.0.0"
         },
         "runtime": {
           "TestePratico.Infra.dll": {}
@@ -239,14 +238,6 @@
         "runtime": {
           "TestePratico.Dominio.dll": {}
         }
-      },
-      "Microsoft.IdentityModel.Protocols/5.2.0.0": {
-        "runtime": {
-          "Microsoft.IdentityModel.Protocols.dll": {
-            "assemblyVersion": "5.2.0.0",
-            "fileVersion": "5.2.0.50129"
-          }
-        }
       }
     }
   },
@@ -412,11 +403,6 @@
     },
     "TestePratico.Dominio/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.IdentityModel.Protocols/5.2.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

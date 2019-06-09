@@ -1706,11 +1706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Aplicacao\\TestePratico.Aplicacao.csproj",
+      "projectUniqueName": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Aplicacao\\TestePratico.Aplicacao.csproj",
       "projectName": "TestePratico.Aplicacao",
-      "projectPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Aplicacao\\TestePratico.Aplicacao.csproj",
+      "projectPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Aplicacao\\TestePratico.Aplicacao.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Aplicacao\\obj\\",
+      "outputPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Aplicacao\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1729,11 +1729,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.DataTransfer\\TestePratico.DataTransfer.csproj": {
-              "projectPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.DataTransfer\\TestePratico.DataTransfer.csproj"
+            "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.DataTransfer\\TestePratico.DataTransfer.csproj": {
+              "projectPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.DataTransfer\\TestePratico.DataTransfer.csproj"
             },
-            "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Dominio\\TestePratico.Dominio.csproj": {
-              "projectPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Dominio\\TestePratico.Dominio.csproj"
+            "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Dominio\\TestePratico.Dominio.csproj": {
+              "projectPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Dominio\\TestePratico.Dominio.csproj"
             }
           }
         }

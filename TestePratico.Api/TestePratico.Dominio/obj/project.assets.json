@@ -944,11 +944,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Dominio\\TestePratico.Dominio.csproj",
+      "projectUniqueName": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Dominio\\TestePratico.Dominio.csproj",
       "projectName": "TestePratico.Dominio",
-      "projectPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Dominio\\TestePratico.Dominio.csproj",
+      "projectPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Dominio\\TestePratico.Dominio.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Dominio\\obj\\",
+      "outputPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

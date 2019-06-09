@@ -12774,11 +12774,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Api\\TestePratico.Api.csproj",
+      "projectUniqueName": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Api\\TestePratico.Api.csproj",
       "projectName": "TestePratico.Api",
-      "projectPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Api\\TestePratico.Api.csproj",
+      "projectPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Api\\TestePratico.Api.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Api\\obj\\",
+      "outputPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12797,11 +12797,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Aplicacao\\TestePratico.Aplicacao.csproj": {
-              "projectPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Aplicacao\\TestePratico.Aplicacao.csproj"
+            "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Aplicacao\\TestePratico.Aplicacao.csproj": {
+              "projectPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Aplicacao\\TestePratico.Aplicacao.csproj"
             },
-            "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Infra\\TestePratico.Infra.csproj": {
-              "projectPath": "C:\\Users\\mateu\\source\\repos\\TestePratico.Api\\TestePratico.Infra\\TestePratico.Infra.csproj"
+            "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Infra\\TestePratico.Infra.csproj": {
+              "projectPath": "D:\\Projetos\\TestePraticoITIX\\TestePratico.Api\\TestePratico.Infra\\TestePratico.Infra.csproj"
             }
           }
         }

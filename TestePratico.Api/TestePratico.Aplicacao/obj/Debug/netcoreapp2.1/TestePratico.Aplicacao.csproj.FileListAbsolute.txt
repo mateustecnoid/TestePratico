@@ -12,3 +12,17 @@ C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\ne
 C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.DataTransfer.pdb
 C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.Dominio.pdb
 C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.csproj.CopyComplete
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.Aplicacao.deps.json
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.Aplicacao.dll
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.Aplicacao.pdb
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.DataTransfer.dll
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.Dominio.dll
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.DataTransfer.pdb
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\bin\Debug\netcoreapp2.1\TestePratico.Dominio.pdb
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.csprojAssemblyReference.cache
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.csproj.CoreCompileInputs.cache
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.AssemblyInfoInputs.cache
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.AssemblyInfo.cs
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.csproj.CopyComplete
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.dll
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Aplicacao\obj\Debug\netcoreapp2.1\TestePratico.Aplicacao.pdb

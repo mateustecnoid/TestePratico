@@ -12,3 +12,15 @@ C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\obj\Debug\netcor
 C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.pdb
 C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\TestePratico.Dominio.dll
 C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\TestePratico.Dominio.pdb
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\TestePratico.Infra.deps.json
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\TestePratico.Infra.dll
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\TestePratico.Infra.pdb
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\TestePratico.Dominio.dll
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Infra\bin\Debug\netcoreapp2.1\TestePratico.Dominio.pdb
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.csprojAssemblyReference.cache
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.csproj.CoreCompileInputs.cache
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.AssemblyInfoInputs.cache
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.AssemblyInfo.cs
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.csproj.CopyComplete
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.dll
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Infra\obj\Debug\netcoreapp2.1\TestePratico.Infra.pdb

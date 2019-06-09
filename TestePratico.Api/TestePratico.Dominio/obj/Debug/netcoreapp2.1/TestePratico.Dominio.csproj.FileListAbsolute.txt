@@ -7,3 +7,11 @@ C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Dominio\obj\Debug\netc
 C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.dll
 C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.pdb
 C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.csprojAssemblyReference.cache
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Dominio\bin\Debug\netcoreapp2.1\TestePratico.Dominio.deps.json
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Dominio\bin\Debug\netcoreapp2.1\TestePratico.Dominio.dll
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Dominio\bin\Debug\netcoreapp2.1\TestePratico.Dominio.pdb
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.csproj.CoreCompileInputs.cache
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.AssemblyInfoInputs.cache
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.AssemblyInfo.cs
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.dll
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.pdb

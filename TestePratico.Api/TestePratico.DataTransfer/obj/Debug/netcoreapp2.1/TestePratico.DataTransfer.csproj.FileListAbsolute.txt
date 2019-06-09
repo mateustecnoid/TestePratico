@@ -7,3 +7,11 @@ C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DataTransfer\obj\Debug
 C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DataTransfer\obj\Debug\netcoreapp2.1\TestePratico.DataTransfer.dll
 C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DataTransfer\obj\Debug\netcoreapp2.1\TestePratico.DataTransfer.pdb
 C:\Users\mateu\source\repos\TestePratico.Api\TestePratico.DataTransfer\obj\Debug\netcoreapp2.1\TestePratico.DataTransfer.csprojAssemblyReference.cache
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.DataTransfer\bin\Debug\netcoreapp2.1\TestePratico.DataTransfer.deps.json
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.DataTransfer\bin\Debug\netcoreapp2.1\TestePratico.DataTransfer.dll
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.DataTransfer\bin\Debug\netcoreapp2.1\TestePratico.DataTransfer.pdb
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.DataTransfer\obj\Debug\netcoreapp2.1\TestePratico.DataTransfer.csproj.CoreCompileInputs.cache
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.DataTransfer\obj\Debug\netcoreapp2.1\TestePratico.DataTransfer.AssemblyInfoInputs.cache
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.DataTransfer\obj\Debug\netcoreapp2.1\TestePratico.DataTransfer.AssemblyInfo.cs
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.DataTransfer\obj\Debug\netcoreapp2.1\TestePratico.DataTransfer.dll
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.DataTransfer\obj\Debug\netcoreapp2.1\TestePratico.DataTransfer.pdb

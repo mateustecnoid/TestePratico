@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Teste Pratico - ITIX</title>
+
+	<!-- Angular -->
+	<script src="libs/angular/angular.min.js"></script>
+	<script src="libs/angular-ui-router/angular-ui-router.min.js"></script>
+	<script src="libs/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+	<script src="libs/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="libs/angular-ui-bootstrap/dist/bootstrap.min.css">
+
+	<!-- CSS Customizado -->
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+	<script src="app/app.js"></script>
+	<script src="app/appController.js"></script>
+</head>
+
+<body ng-app="TestePratico">
+	<!-- Controllers -->
+	<script src="app/inicio/inicioController.js"></script>
+	<script src="app/paciente/pacienteController.js"></script>
+	<script src="app/agendamento/agendamentoController.js"></script>
+
+	<!-- Services -->
+	<script src="services/agendamentoService.js"></script>
+	<script src="services/pacienteService.js"></script>
+
+	<ui-view></ui-view>
+</body>
+
+</html>
