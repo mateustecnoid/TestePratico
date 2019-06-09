@@ -112,13 +112,14 @@ namespace TestePratico.Infra.Repositorios
             if (dataInicio != null && dataInicio != new DateTime())
             {
                 query.AppendLine("AND A.DATINICIOCONSULTA >= @DATINICIOCONSULTA");
-                parametros.Add("DATINICIOCONSULTA", dataInicio);
+                parametros.Add("DATINICIOCONSULTA", dataFim);
             }
 
             if (dataFim != null && dataFim != new DateTime())
             {
                 query.AppendLine("AND A.DATFIMCONSULTA <= @DATFIMCONSULTA");
                 parametros.Add("DATFIMCONSULTA", dataFim);
+
             }
 
             if (!string.IsNullOrEmpty(observacao))
@@ -129,11 +130,26 @@ namespace TestePratico.Infra.Repositorios
 
             #endregion
 
-            return connection.Query<Agendamento, Paciente, Agendamento>(querySelect, (agendamento, paciente) =>
+
+            return connection.Query<Agendamento, Paciente, Agendamento>(query.ToString(), (agendamento, paciente) =>
             {
                 agendamento.Paciente = paciente;
                 return agendamento;
             }, parametros, splitOn: "CODIGO, CODIGO").ToList();
         }
+
+        public bool VerificarDisponibilidade(DateTime dataInicio, DateTime dataFim)
+        {
+            var query = @"SELECT COUNT(1) FROM AGENDAMENTO A WHERE A.DATFIMCONSULTA BETWEEN @DATAINICIO  AND @DATAFIM";
+
+            var parametros = new DynamicParameters();
+            parametros.Add("DATAINICIO", dataInicio);
+            parametros.Add("DATAFIM", dataFim);
+
+            var resultado = connection.Query<int>(query, parametros).SingleOrDefault();
+
+            return resultado > 0;
+        }
+        
     }
 }

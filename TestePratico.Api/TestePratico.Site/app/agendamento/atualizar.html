@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <form name="cadastroAgendamento" ng-submit="vm.atualizar()">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Atualizar paciente</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="form-group">
+                                    <label>Codigo: </label>
+                                    <input class="form-control" type="number" ng-model="vm.agendamento.codigo">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4">
+                                <div class="form-group">
+                                    <label>Paciente: </label>
+                                    <select name="teste" class="form-control"
+                                        ng-options="paciente.codigo as paciente.nome for paciente in vm.pacientes"
+                                        ng-model="vm.agendamento.paciente.codigo">
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4">
+                                <div class="form-group">
+                                    <label>Observacao: </label>
+                                    <input class="form-control" type="text" ng-model="vm.agendamento.observacao">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="form-group">
+                                    <label>Data Inicio: </label>
+                                    <input type="hidden" id="timezone" name="timezone" value="-03:00">
+                                    <input class="form-control" type="datetime-local" ng-model="vm.agendamento.dataInicial">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <div class="form-group">
+                                    <label>Data Fim: </label>
+                                    <input class="form-control" type="datetime-local" ng-model="vm.agendamento.dataFinal">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <button class="btn btn-sm btn-primary" type="submit">Salvar</button>
+                                <button class="btn btn-sm" ng-click="vm.agendamento = {};">Limpar Campos</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

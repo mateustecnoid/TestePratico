@@ -14,7 +14,6 @@
         };
 
         function buscarPacientes(request) {
-            request.dataNascimento ? request.dataNascimento.toJSON() :'' 
             return $http.get(url, { params: request }).then(function (resposta) {
                 service.pacientes = resposta.data;
             });

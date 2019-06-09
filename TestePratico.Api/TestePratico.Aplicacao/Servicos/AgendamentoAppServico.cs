@@ -32,7 +32,7 @@ namespace TestePratico.Aplicacao.Servicos
                 throw new Exception("Agendamento não foi encontrado");
             }
 
-            if (VerificarDisponiblidade(request.DataInicial, request.DataFinal))
+            if (agendamentoRepositorio.VerificarDisponibilidade(request.DataInicial, request.DataFinal))
             {
                 throw new Exception("Horario não disponivel para agendamento");
             }
@@ -78,7 +78,7 @@ namespace TestePratico.Aplicacao.Servicos
                 throw new Exception("Paciente não foi encontrado");
             }
 
-            if(VerificarDisponiblidade(request.DataInicial, request.DataFinal))
+            if(agendamentoRepositorio.VerificarDisponibilidade(request.DataInicial, request.DataFinal))
             {
                 throw new Exception("Horario não disponivel para agendamento");
             }
@@ -100,15 +100,6 @@ namespace TestePratico.Aplicacao.Servicos
             var resultado = agendamentoRepositorio.Recuperar(request.Codigo, request.CodigoPaciente, request.DataFinal, request.DataFinal, request.Observacao);
 
             return mapper.Map<IEnumerable<Agendamento>, IEnumerable<AgendamentoResponse>>(resultado);
-        }
-
-        private bool VerificarDisponiblidade(DateTime dataInicio, DateTime dataFim)
-        {
-
-            var resultado = agendamentoRepositorio.Recuperar(null, null, dataInicio, dataFim, null);
-
-            return resultado.Count() > 0;
-
         }
     }
 }

@@ -1,1 +1,114 @@
-<h3>Teste: Agendamento</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <form name="filtroPaciente" ng-submit="vm.pesquisar()">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Filtros</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="form-group">
+                                    <label>Codigo: </label>
+                                    <input class="form-control" type="number" ng-model="vm.filtro.codigo">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4">
+                                <div class="form-group">
+                                    <label>Paciente: </label>
+                                    <select name="teste" class="form-control"
+                                        ng-options="paciente.codigo as paciente.nome for paciente in vm.pacientes"
+                                        ng-model="vm.filtro.codigoPaciente">
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4">
+                                <div class="form-group">
+                                    <label>Observacao: </label>
+                                    <input class="form-control" type="text" ng-model="vm.filtro.observacao">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="form-group">
+                                    <label>Data Inicio: </label>
+                                    <input type="hidden" id="timezone" name="timezone" value="-03:00">
+                                    <input class="form-control" type="datetime-local" ng-model="vm.filtro.dataInicial">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <div class="form-group">
+                                    <label>Data Fim: </label>
+                                    <input class="form-control" type="datetime-local" ng-model="vm.filtro.dataFinal">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <button class="btn btn-sm btn-primary" type="submit">Pesquisar</button>
+                                <button class="btn btn-sm" ng-click="vm.filtro = {};">Limpar Filtros</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">Resultado</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a class="btn btn-sm btn-primary" ui-sref="app.cadastrar-agendamento">Novo</a>
+                        </div>
+                        <br />
+                        <br />
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="table-responsive">
+                                <table ng-table="vm.TabelaAgendamentos"
+                                    class="table table-condensed table-bordered table-striped">
+                                    <tr ng-repeat="registro in $data">
+                                        <td data-title="'Ações'" class="text-center">
+                                            <div class="btn-group" uib-dropdown dropdown-append-to-body>
+                                                <button id="btn-append-to-body" type="button"
+                                                    class="btn btn-xs btn-primary" uib-dropdown-toggle>
+                                                    <i class="fa fa-cog" aria-hidden="true"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" uib-dropdown-menu role="menu"
+                                                    aria-labelledby="btn-append-to-body">
+                                                    <li role="menuitem">
+                                                        <a ui-sref="app.atualizar-agendamento({codigo: registro.codigo})">Atualizar</a>
+                                                    </li>
+                                                    <li role="menuitem">
+                                                        <a ng-click="vm.excluir(registro.codigo)">Excluir</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td data-title="'Código'" class="text-center">{{registro.codigo}}</td>
+                                        <td data-title="'Paciente'" class="text-center">{{registro.paciente.codigo}} -
+                                            {{registro.paciente.nome}}</td>
+                                        <td data-title="'Data de Inicio'" class="text-center">
+                                            {{registro.dataInicial | date: 'short'}}</td>
+                                        <td data-title="'Data Fim'" class="text-center">
+                                            {{registro.dataFinal | date: 'short'}}</td>
+                                        <td data-title="'Observação'" class="text-center">
+                                            {{registro.observacao}}</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

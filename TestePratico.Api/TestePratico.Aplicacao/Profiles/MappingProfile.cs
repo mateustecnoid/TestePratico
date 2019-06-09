@@ -9,7 +9,9 @@ namespace TestePratico.Aplicacao.Profiles
         public MappingProfile()
         {
             CreateMap<Paciente, PacienteResponse>();
-            CreateMap<Agendamento, AgendamentoResponse>();
+            CreateMap<Agendamento, AgendamentoResponse>()
+                .ForMember(x=> x.DataFinal, y => y.MapFrom( z => z.DataFinal.ToLocalTime()))
+                .ForMember(x => x.DataInicial, y => y.MapFrom(z => z.DataInicial.ToLocalTime()));
         }
     }
 }

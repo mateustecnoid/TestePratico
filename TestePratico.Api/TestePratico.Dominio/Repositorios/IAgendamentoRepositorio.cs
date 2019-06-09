@@ -12,5 +12,6 @@ namespace TestePratico.Dominio.Repositorios
         void Excluir(Agendamento agendamento);
         Agendamento Recuperar(int codigo);
         IEnumerable<Agendamento> Recuperar(int? codigoAgendamento, int? codigoPaciente, DateTime? dataInicio, DateTime? dataFim, string observacao);
+        bool VerificarDisponibilidade(DateTime dataInicio, DateTime dataFim);
     }
 }

@@ -2,7 +2,7 @@ angular.module('TestePratico', ['ui.bootstrap', 'ui.router', 'ngTable'])
     .constant('UrlApi', {
         //URL Local:
         UrlApi: "http://localhost/TestePratico.Api/api/"
-    })    
+    })
     .config(function ($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise('/app');
         $stateProvider
@@ -40,6 +40,18 @@ angular.module('TestePratico', ['ui.bootstrap', 'ui.router', 'ngTable'])
                 url: '/agendamento',
                 templateUrl: 'app/agendamento/agendamento.html',
                 controller: 'AgendamentoController',
+                controllerAs: 'vm'
+            })
+            .state('app.cadastrar-agendamento', {
+                url: '/cadastrar-agendamento',
+                templateUrl: 'app/agendamento/cadastrar.html',
+                controller: 'CadastrarAgendamentoController',
+                controllerAs: 'vm'
+            })
+            .state('app.atualizar-agendamento', {
+                url: '/atualizar-agendamento/:codigo',
+                templateUrl: 'app/agendamento/atualizar.html',
+                controller: 'AtualizarAgendamentoController',
                 controllerAs: 'vm'
             });
     })
