@@ -3,6 +3,7 @@ D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Api\bin\Debug\netcore
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Api\bin\Debug\netcoreapp2.1\TestePratico.Api.runtimeconfig.json
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Api\bin\Debug\netcoreapp2.1\TestePratico.Api.runtimeconfig.dev.json
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Api\bin\Debug\netcoreapp2.1\TestePratico.Api.dll
+D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Api\bin\Debug\netcoreapp2.1\TestePratico.Api.pdb
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Api\bin\Debug\netcoreapp2.1\TestePratico.Aplicacao.dll
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Api\bin\Debug\netcoreapp2.1\TestePratico.DataTransfer.dll
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Api\bin\Debug\netcoreapp2.1\TestePratico.Dominio.dll
@@ -21,4 +22,3 @@ D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Api\obj\Debug\netcore
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Api\obj\Debug\netcoreapp2.1\TestePratico.Api.csproj.CopyComplete
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Api\obj\Debug\netcoreapp2.1\TestePratico.Api.dll
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Api\obj\Debug\netcoreapp2.1\TestePratico.Api.pdb
-D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Api\bin\Debug\netcoreapp2.1\TestePratico.Api.pdb

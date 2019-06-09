@@ -15,4 +15,3 @@ D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Dominio\obj\Debug\net
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.AssemblyInfo.cs
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.dll
 D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.pdb
-D:\Projetos\TestePraticoITIX\TestePratico.Api\TestePratico.Dominio\obj\Debug\netcoreapp2.1\TestePratico.Dominio.csprojAssemblyReference.cache
